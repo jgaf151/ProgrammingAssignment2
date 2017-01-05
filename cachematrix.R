@@ -33,11 +33,6 @@ cacheSolve <- function(x, ...) {
 
 
 #example for input
-makeCacheMatrix(a_matrix)
-a_matrix$get()
-a_matrix$getInverse()
-cacheSolve(a_matrix2)
-
 my_matrix <- makeCacheMatrix(matrix(1:4, 2, 2))
 my_matrix$get()
 my_matrix$getinv()
